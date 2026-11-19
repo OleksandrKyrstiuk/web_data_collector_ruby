@@ -1,0 +1,20 @@
+﻿application:
+  name: web_data_collector
+  log_level: info
+  mode: live
+
+source:
+  site_key: "djinni"
+  url: "https://djinni.co/jobs/?primary_keyword=Analyst"
+  timeout: 15
+  headless: true
+
+database:
+  adapter: sqlite
+  path: "data/jobs.sqlite3"
+  table: vacancies
+
+output:
+  directory: "output"
+  json_file: "vacancies.json"
+  csv_file: "vacancies.csv"

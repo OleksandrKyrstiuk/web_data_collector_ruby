@@ -1,0 +1,18 @@
+﻿djinni:
+  item_card: "div.job-item[id^='job-item-']"
+  fields:
+    title:
+      selector: "h2.job-item__position"
+      attribute: "text"
+    url:
+      selector: "a.job_item__header-link"
+      attribute: "href"
+    company:
+      selector: "header .col span.small"
+      attribute: "text"
+    salary:
+      selector: "span.text-success, .public-salary-item"
+      attribute: "text"
+    experience:
+      selector: "div.fw-medium span.text-nowrap, span.text-nowrap"
+      attribute: "text"

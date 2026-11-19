@@ -1,0 +1,61 @@
+[2026-11-18 23:35:03] INFO: === апуск DSL-конвеєра: 'Test DSL' ===
+[2026-11-18 23:35:03] INFO: жерело: https://example.com/jobs
+[2026-11-18 23:35:03] INFO: тримано записів до фільтрації: 2
+[2026-11-18 23:35:03] INFO: алишилось записів після DSL-фільтрів: 1
+[2026-11-18 23:35:03] INFO: DSL експорт (JSON) виконано: C:/Temp/d20261118-4916-7j3kc6/dsl.json
+[2026-11-18 23:35:03] INFO: DSL експорт (CSV) виконано: C:/Temp/d20261118-4916-7j3kc6/dsl.csv
+[2026-11-18 23:35:03] INFO: === DSL-конвеєр 'Test DSL' успішно виконано ===
+[2026-11-18 23:35:56] INFO: === Запуск конвеєра WebDataCollector ===
+[2026-11-18 23:35:56] INFO: Джерело даних: https://djinni.co/jobs/?primary_keyword=Analyst (режим: live)
+[2026-11-18 23:35:57] INFO: Запуск Selenium WebDriver (headless=true) для завантаження https://djinni.co/jobs/?primary_keyword=Analyst
+[2026-11-18 23:36:04] INFO: Отримано сирих записів: 15
+[2026-11-18 23:36:04] INFO: Після валідації залишилось записів: 15
+[2026-11-18 23:36:04] INFO: Нових записів збережено в SQLite: 15 (усього в базі: 25)
+[2026-11-18 23:36:04] INFO: Експортовано результати у output/vacancies.json та output/vacancies.csv
+[2026-11-18 23:36:04] INFO: === Виконання успішно завершено ===
+[2026-11-19 09:40:44] INFO: === Запуск DSL-конвеєра: 'бір Ruby-вакансій із Djinni' ===
+[2026-11-19 09:40:44] INFO: Джерело: https://djinni.co/jobs/?primary_keyword=Ruby
+[2026-11-19 09:40:45] INFO: Запуск Selenium WebDriver (headless=true) для завантаження https://djinni.co/jobs/?primary_keyword=Ruby
+[2026-11-19 09:40:50] INFO: Отримано записів до фільтрації: 2
+[2026-11-19 09:40:50] INFO: Залишилось записів після DSL-фільтрів: 2
+[2026-11-19 09:40:50] INFO: DSL експорт (JSON) виконано: output/dsl_vacancies.json
+[2026-11-19 09:40:51] INFO: DSL експорт (CSV) виконано: output/dsl_vacancies.csv
+[2026-11-19 09:40:51] INFO: === DSL-конвеєр 'бір Ruby-вакансій із Djinni' успішно виконано ===
+[2026-11-19 09:41:08] INFO: === Запуск DSL-конвеєра: 'Test DSL' ===
+[2026-11-19 09:41:08] INFO: Джерело: https://example.com/jobs
+[2026-11-19 09:41:08] INFO: Отримано записів до фільтрації: 2
+[2026-11-19 09:41:08] INFO: Залишилось записів після DSL-фільтрів: 1
+[2026-11-19 09:41:08] INFO: DSL експорт (JSON) виконано: C:/Temp/d20261119-17520-8id0hm/dsl.json
+[2026-11-19 09:41:08] INFO: DSL експорт (CSV) виконано: C:/Temp/d20261119-17520-8id0hm/dsl.csv
+[2026-11-19 09:41:08] INFO: === DSL-конвеєр 'Test DSL' успішно виконано ===
+[2026-11-19 10:13:15] INFO: === Запуск конвеєра WebDataCollector ===
+[2026-11-19 10:13:15] INFO: Джерело даних: https://djinni.co/jobs/?primary_keyword=Analyst (режим: live)
+[2026-11-19 10:13:15] INFO: Запуск Selenium WebDriver (headless=true) для завантаження https://djinni.co/jobs/?primary_keyword=Analyst
+[2026-11-19 10:13:18] INFO: Отримано сирих записів: 15
+[2026-11-19 10:13:18] INFO: Після валідації залишилось записів: 15
+[2026-11-19 10:13:18] INFO: Нових записів збережено в SQLite: 15 (усього в базі: 40)
+[2026-11-19 10:13:18] INFO: Експортовано результати у output/vacancies.json та output/vacancies.csv
+[2026-11-19 10:13:18] INFO: === Виконання успішно завершено ===
+[2026-11-19 10:27:37] INFO: === Запуск DSL-конвеєра: 'бір Ruby-вакансій із Djinni' ===
+[2026-11-19 10:27:37] INFO: Джерело: https://djinni.co/jobs/?primary_keyword=Ruby
+[2026-11-19 10:27:37] INFO: Запуск Selenium WebDriver (headless=true) для завантаження https://djinni.co/jobs/?primary_keyword=Ruby
+[2026-11-19 10:27:40] INFO: Отримано записів до фільтрації: 2
+[2026-11-19 10:27:40] INFO: Залишилось записів після DSL-фільтрів: 2
+[2026-11-19 10:27:40] INFO: DSL експорт (JSON) виконано: output/dsl_vacancies.json
+[2026-11-19 10:27:40] INFO: DSL експорт (CSV) виконано: output/dsl_vacancies.csv
+[2026-11-19 10:27:40] INFO: === DSL-конвеєр 'бір Ruby-вакансій із Djinni' успішно виконано ===
+[2026-11-19 10:27:54] INFO: === Запуск конвеєра WebDataCollector ===
+[2026-11-19 10:27:54] INFO: Джерело даних: https://djinni.co/jobs/?primary_keyword=Analyst (режим: live)
+[2026-11-19 10:27:54] INFO: Запуск Selenium WebDriver (headless=true) для завантаження https://djinni.co/jobs/?primary_keyword=Analyst
+[2026-11-19 10:27:57] INFO: Отримано сирих записів: 15
+[2026-11-19 10:27:57] INFO: Після валідації залишилось записів: 15
+[2026-11-19 10:27:57] INFO: Нових записів збережено в SQLite: 6 (усього в базі: 46)
+[2026-11-19 10:27:57] INFO: Експортовано результати у output/vacancies.json та output/vacancies.csv
+[2026-11-19 10:27:57] INFO: === Виконання успішно завершено ===
+[2026-11-19 10:28:16] INFO: === Запуск DSL-конвеєра: 'Test DSL' ===
+[2026-11-19 10:28:16] INFO: Джерело: https://example.com/jobs
+[2026-11-19 10:28:16] INFO: Отримано записів до фільтрації: 2
+[2026-11-19 10:28:16] INFO: Залишилось записів після DSL-фільтрів: 1
+[2026-11-19 10:28:16] INFO: DSL експорт (JSON) виконано: C:/Temp/d20261119-10380-qlycpr/dsl.json
+[2026-11-19 10:28:16] INFO: DSL експорт (CSV) виконано: C:/Temp/d20261119-10380-qlycpr/dsl.csv
+[2026-11-19 10:28:16] INFO: === DSL-конвеєр 'Test DSL' успішно виконано ===
